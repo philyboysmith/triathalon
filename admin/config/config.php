@@ -10,7 +10,7 @@
             break;
     }
 
-    define('PERCH_LICENSE_KEY', 'P31901-WJV587-DRU737-QFP569-XDM029');
+    define('PERCH_LICENSE_KEY', 'R31901-CMQ144-WXJ091-TUS672-SEA029');
     define('PERCH_EMAIL_FROM', 'phil@amillionmonkeys.co.uk');
     define('PERCH_EMAIL_FROM_NAME', 'Phil Smith');
 
