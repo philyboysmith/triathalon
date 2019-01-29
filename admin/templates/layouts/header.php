@@ -36,6 +36,10 @@
   }
 }
 
+.container--page {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .container--page table {
     /* Remove spacing between table cells (from Normalize.css) */
     border-collapse: collapse;
