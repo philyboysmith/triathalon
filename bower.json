@@ -1,0 +1,24 @@
+{
+  "name": "Dash",
+  "description": "A project for Duchenne UK",
+  "main": "index.html",
+  "authors": [
+    "Phil Smith <phil@amillionmonkeys.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "https://dash.duchenneuk.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "responsive-nav": "^1.0.39",
+    "jquery": "^3.2.1",
+    "jquery.countdown": "^2.2.0",
+    "magnific-popup": "^1.1.0"
+  }
+}

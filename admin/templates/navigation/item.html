@@ -1,0 +1,17 @@
+<perch:before>
+    <nav class="main-nav">
+      <ul>
+</perch:before>
+		<li<perch:if exists="current_page"> class="selected"</perch:if><perch:if exists="ancestor_page"> class="ancestor"</perch:if>>
+            <a href="<perch:pages id="pagePath" />"><perch:pages id="pageNavText" /></a>   
+            <perch:pages id="subitems" encode="false" />
+        </li>
+<perch:after>
+		<li><a href="#register" class="popup  btn  btn--pill  btn--secondary">Find out more</a></li>
+    </ul>
+  </nav>
+  <div id="register" class="mfp-hide white-popup-block">
+	   <h2>Find out more</h2>
+	   <p class="lead">If you would like to get more information about the Dash and how to register please email:&nbsp;<a href="mailto:dash@duchenneuk.org">dash@duchenneuk.org&nbsp;</a></p>
+  </div>
+</perch:after>

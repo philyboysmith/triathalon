@@ -1,0 +1,43 @@
+//---------------------------------------------//
+// Variables - Outline
+// all variables...
+// Docs - http://outlinecss.co.uk/get-started.html#variables
+//---------------------------------------------//
+
+// html
+$html-font-base: 100%; // 16px
+$font-base: 1rem; // 16px
+$spacing: 1.5rem; // 24px
+
+// Fonts
+$font-primary: 'Lato', serif; // body font
+$font-secondary: 'NewsGothicMT-Bold', sans-serif; // title font
+$font-monospace: Monaco, Consolas, 'Lucida Console', monospace;
+
+// Colours
+$color-primary: #00aeef;
+$color-secondary: #005399;
+$color-tertiary: #022553;
+$color-grey: rgb(67, 72, 91);
+$color-grey-light: #dce8ef;
+$color-grey-dark: #3E3E3E;
+
+$color-white: #FFFFFF;
+
+
+// Placeholder text colour
+$placeholder-text: $color-grey;
+
+// Button text color
+$btn-text-color: #fff;
+$btn-text-color-alt: $color-grey-dark;
+
+// Breakpoints
+$mobile-landscape: 30rem; // 480px
+$tablet: 40rem; // 640px
+$tablet-wide: 48rem; // 768px
+$desktop: 64rem; // 1024px
+$widescreen: 71.25rem; // 1140px
+
+
+

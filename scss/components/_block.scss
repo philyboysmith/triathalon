@@ -1,0 +1,53 @@
+.block {
+	@extend %text-white;
+	&:hover {
+		@extend %text-white;		
+	}
+	position: relative;
+	padding: $spacing / 2 $spacing * 4 $spacing / 2 $spacing / 2;
+	overflow: hidden;
+	@include respond-min($tablet) {
+		min-height: 28em;
+	}
+	*:last-child{
+		margin-bottom: 0;
+	}
+	*:first-child{
+		margin-top: 0;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+.block:nth-child(3n + 1){
+	background: $color-primary!important;
+}
+.block:nth-child(3n + 2){
+	background: $color-secondary!important;
+}
+.block:nth-child(3n + 3){
+	background: $color-tertiary!important;
+}
+
+.block__content {
+	position: relative;
+	z-index:1;
+}
+.block__image {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(1.05);
+	filter: saturate(10%);
+	opacity: 0.1;
+	transition: all .4s;
+	.block:hover & {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 0.3;
+	}
+}

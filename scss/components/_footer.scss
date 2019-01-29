@@ -1,0 +1,14 @@
+.main-footer {
+	padding-bottom: $spacing * 2;
+	.logo {
+		max-width: 12em;
+		margin: 0 auto $spacing;
+		display: block;
+		@include respond-min($tablet) {
+			margin: 0;
+		}
+	}
+	p {
+		margin-bottom: 0;
+	}
+}

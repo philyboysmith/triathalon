@@ -1,0 +1,23 @@
+.event__assets {
+	@extend %list--unstyled, %list--inline;
+	@extend %clearfix;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+.event__assets li {
+	width: 33.333%;
+	flex: 1 0 33.3333%;
+	max-width: 50%;
+	padding: 0 $spacing $spacing 0;
+	margin: 0!important;
+	float:left;
+}
+
+
+.event__assets img {
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.21);
+    border: 5px solid white;
+}

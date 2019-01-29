@@ -1,0 +1,40 @@
+.countdown {
+	@extend %bg-secondary, %text-white, %align-center;
+	padding: $spacing;
+	
+}
+
+
+.countdown ul {
+	list-style: none;
+	font-size: 12px;
+	@include respond-min($tablet) {
+		font-size: 16px;
+	}
+}
+
+.countdown li {
+	display: inline-block;
+	background-image: url(/img/shape.svg);
+	width: 10.9375em;
+	height: 12.625em;
+	background-size: cover;
+	margin: 0 $spacing / 3 $spacing / 3;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+    padding: 1em 0 2em;
+
+
+}
+
+
+.countdown li span {
+	display: block;
+	text-transform: uppercase;
+	&:first-child {
+		font-size: 4rem;
+	}
+}

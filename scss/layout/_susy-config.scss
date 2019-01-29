@@ -1,0 +1,60 @@
+//---------------------------------------------//
+// Susy config (2.2.5)
+// Docs - http://outlinecss.co.uk/get-started.html#susy
+//---------------------------------------------//
+
+$susy: (
+  columns: 12,
+  gutters: 1,
+  gutter-position: split,
+  container: $widescreen,
+);
+
+.container {
+  @include container();
+}
+
+.l-row {
+	margin-top: $spacing * 2;
+	margin-bottom: $spacing * 2;
+}
+
+.container--blocks{
+	display: flex;
+	flex-direction: column;
+	.block {
+		flex: 1;
+	}
+}
+
+@include respond-min($tablet) {
+	.container--header,
+	.container--footer{
+		display: flex;
+		align-items: center;
+	}
+
+	.container--blocks{
+		flex-direction: row;
+	}
+
+	.l-logo {
+		@include span(2);
+	}
+
+	.l-nav {
+		@include span(10 last);
+	}
+
+	.l-block {
+		@include span(4);
+	}
+	
+	.main-footer .l-logo {
+		@include span(2);
+	}
+
+	.main-footer .l-copyright {
+		@include span(8);
+	}
+}
