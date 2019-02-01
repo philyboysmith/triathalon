@@ -624,7 +624,8 @@ input[type="submit"] {
     opacity: .6; }
 
 .btn--secondary {
-  background-color: #005399; }
+  background-color: #005399;
+  color: white !important; }
   .btn--secondary:hover, .btn--secondary:focus, .btn--secondary:active {
     background-color: #004782;
     color: white !important; }

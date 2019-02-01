@@ -41,7 +41,7 @@ button,
 .btn--secondary,
 %btn--secondary {
   background-color: $color-secondary;
-
+  color: white!important;
   &:hover,
   &:focus,
   &:active {
