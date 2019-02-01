@@ -626,7 +626,8 @@ input[type="submit"] {
 .btn--secondary {
   background-color: #005399; }
   .btn--secondary:hover, .btn--secondary:focus, .btn--secondary:active {
-    background-color: #004782; }
+    background-color: #004782;
+    color: white !important; }
 
 .btn--tertiary {
   color: #3E3E3E;

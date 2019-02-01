@@ -46,6 +46,7 @@ button,
   &:focus,
   &:active {
     background-color: shade($color-secondary, 15%);
+    color: white!important;
   }
 }
 
