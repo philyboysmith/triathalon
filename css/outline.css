@@ -1177,7 +1177,7 @@ img.mfp-img {
       padding: 0.75rem; } }
 
 .selected a {
-  color: #005399 !important; }
+  color: #005399; }
 
 .js .main-nav {
   clip: rect(0 0 0 0);
