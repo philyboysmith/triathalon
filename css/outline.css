@@ -371,7 +371,7 @@ h6,
   margin-bottom: .5rem; }
 
 p {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 0.75rem; }
 
 .font-primary {
   font-family: "Lato", serif; }
@@ -517,7 +517,7 @@ figcaption {
     -ms-flex-direction: row;
         flex-direction: row; }
   .l-logo {
-    width: 12.5%;
+    width: 20.83333%;
     float: left;
     margin-left: 2.08333%;
     margin-right: 2.08333%; }
@@ -1344,8 +1344,8 @@ textarea[disabled] {
   .main-header a:active {
     color: #022553; }
   .main-header .logo {
-    max-width: 6em;
-    max-height: 6em;
+    max-width: 10em;
+    max-height: 10em;
     margin: 0 auto;
     display: block; }
     @media screen and (min-width: 40rem) {

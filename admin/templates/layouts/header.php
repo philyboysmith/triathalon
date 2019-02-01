@@ -85,7 +85,7 @@ there's a rowspan on the first cell. Case added to the tests. issue#432 */
       <header class="main-header">
         <div class="container  container--header">
           <div class="l-logo">
-            <a href="/""><img src="/img/logo.svg" alt="Duchenne Triathalon" class="logo"/></a>
+            <a href="/""><img src="/img/tri-logo.svg" alt="Duchenne Triathalon" class="logo"/></a>
           </div>
           <div class="l-nav">
             <?php perch_pages_navigation(); ?>
