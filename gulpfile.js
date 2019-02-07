@@ -66,6 +66,7 @@ gulp.task('js', function() {
     'bower_components/responsive-nav/responsive-nav.min.js',
     'bower_components/jquery.countdown/dist/jquery.countdown.js',
     'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
+    'bower_components/fittext/fittext.js',
     'js/*.js'])
 
   .pipe(concat('bundle.js'))

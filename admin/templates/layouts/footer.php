@@ -1,9 +1,11 @@
       <section class="countdown l-row">
         <div class="container">
-          <h2>Duchenne Triathalon <?php echo date("Y"); ?></h2>
+        <h2>TRI 4 DUCHENNE<br />
+SUNDAY 16TH SEPTEMBER<br />
+ETON DORNEY LAKE, BERKSHIRE</h2>
           <ul class="" id="clock">
           </ul>
-          <a href="#register" class="btn btn--rounded btn--ghost">Find out more</a>
+          <a href="#register" class="btn btn--rounded btn--ghost" style="display: none">Find out more</a>
         </div>
       </section>
 
