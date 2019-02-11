@@ -1,7 +1,7 @@
       <section class="countdown l-row">
         <div class="container">
         <h2>TRI 4 DUCHENNE<br />
-SUNDAY 16TH SEPTEMBER<br />
+SUNDAY 15TH SEPTEMBER<br />
 ETON DORNEY LAKE, BERKSHIRE</h2>
           <ul class="" id="clock">
           </ul>
